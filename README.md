@@ -66,6 +66,7 @@ $$
 
 ```bash
 python -m pip install -r requirements.txt
+```
 
 После установки зависимостей программа готова к использованию.
 
@@ -77,4 +78,4 @@ python -m pip install -r requirements.txt
 
 ```bash
 python main.py --show
-
+```
