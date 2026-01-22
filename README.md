@@ -156,18 +156,21 @@ python main.py --vy0 0.8 --t_max 20 --save_png
 ```bash
 python main.py --mu 1 --x0 1 --y0 0 --vx0 0 --vy0 1 --t_max 10 --save_png
 ```
-Результат: 
+
+<img src="assets/круг.png" width="500">
+---
 
 Эллипс:
 
 ```bash
 python main.py --vy0 0.8 --t_max 20 --save_png
 ```
+<img src="assets/эллипс.png" width="500">
 
 Спираль к центру (с сопротивлением):
 
 ```bash
 python main.py --k_drag 0.05 --t_max 30 --r_stop 0.005 --dt 0.001 --save_png
 ```
-
+<img src="assets/спираль_к_центру.png" width="500">
 
